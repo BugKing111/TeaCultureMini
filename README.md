@@ -8,12 +8,14 @@
 
 
 分类：
+![image](https://github.com/BugKing111/TeaCultureMini/assets/143703487/027cd08e-bf81-4a45-89b2-2ee60ec6b91a)
 
-![image](https://github.com/BugKing111/TeaCultureMini/assets/143703487/3d6a04e3-7d3f-4008-93f5-d545eeeca8a5)
+
 
 分类的详情：
 
-![image](https://github.com/BugKing111/TeaCultureMini/assets/143703487/2b113f3a-ac58-4d05-adf1-2219008e02c6)
+![image](https://github.com/BugKing111/TeaCultureMini/assets/143703487/d4a3ce3f-3955-44d7-884e-10e6ff6b33e6)
+
 
 资讯页面：
 
