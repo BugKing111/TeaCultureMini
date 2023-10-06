@@ -1,0 +1,32 @@
+<!-- {{item.id}} -->
+<!-- 点击对应的新闻传id到详情页面 -->
+<navigator url="/pages/newsDetail/detail?id={{item._id}}" class="newsitem">
+	<!-- 左边图片 -->
+	<view class="pic">
+		<image class="img3" src="{{item.picurl}}" mode="aspectFill"></image>
+	</view>
+	<!-- 右边文字 -->
+	<view class="text">
+		<view class="title">
+			{{item.title}}
+		</view>
+		<view class="info">
+			<view class="block">
+				<van-icon name="clock-o" size="16"></van-icon>
+				<text>{{item.publish_date}}</text>
+			</view>
+			<view class="block">
+				<van-icon name="eye-o" size="16"></van-icon>
+				<text>{{item.view_count}}</text>
+			</view>
+			<view class="block">
+				<van-icon name="user-o" size="16" class="vanicon"></van-icon>
+				<text>{{item.author}}</text>
+			</view>
+
+		</view>
+	</view>
+
+
+
+</navigator>

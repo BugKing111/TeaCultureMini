@@ -1,0 +1,55 @@
+.newsitem {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30rpx;
+
+	.pic {
+		height: 150rpx;
+		width: 220rpx;
+
+		.img3 {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.text {
+		width: 440rpx;
+		height: 150rpx;
+		// text-align: justify; // 字体之间有间隔
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		.title {
+			line-height: 1.4em;
+			color: var(--globalColor);
+			font-size: 32rpx;
+			text-overflow: -o-ellipsis-lastline;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+		}
+
+		.info {
+			display: flex;
+			justify-content: space-between;
+			font-size: 28rpx;
+			color: #9e9d9d;
+
+			.block {
+				margin-top: 10rpx;
+				display: flex;
+				align-items: center;
+			}
+
+			van-icon {
+				color: #9e9d9d;
+				margin-right: 10rpx;
+			}
+		}
+	}
+}

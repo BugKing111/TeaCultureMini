@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+		"pages/list/list",
+		"pages/news/news",
+		"pages/newsDetail/detail",
+		"pages/productDetail/proDetail",
+		"pages/search/search"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "茶文化",
+    "navigationBarTextStyle":"white"
+	},
+	"tabBar": {
+		"selectedColor": "#00B26A",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "images/home.png",
+				"selectedIconPath": "images/home-light1.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/list/list",
+				"iconPath": "images/list.png",
+				"selectedIconPath": "images/list-light1.png"
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "images/page.png",
+				"selectedIconPath": "images/news-light1.png"
+			}
+		]
+	},
+	"usingComponents": {
+		"xzsHeader":"/components/xzsHeader/xzsHeader",
+		"szx-news-item":"/components/szx-news-item/szx-news-item",
+		"xzs-footer":"/components/xzs-footer/xzs-footer",
+		"xzs-product-item":"/components/xzs-product-item/xzs-product-item",
+		"van-icon": "@vant/weapp/icon/index",
+		"van-loading":"@vant/weapp/loading/index",
+		"van-tab": "@vant/weapp/tab/index",
+		"van-tabs": "@vant/weapp/tabs/index"
+	},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,87 @@
+.banner {
+	padding-top: 30rpx;
+
+	// 轮播图
+	swiper {
+		height: 460rpx;
+
+		swiper-item {
+			image {
+				width: 690rpx;
+				height: 460rpx;
+				border-radius: 30rpx;
+			}
+		}
+	}
+}
+
+// 横向滑动导航条
+.scrollNav {
+	padding: 50rpx 30rpx;
+
+	scroll-view {
+		// 不换行,但是要变成行内块
+		white-space: nowrap;
+
+		.item {
+			display: inline-block;
+			padding: 0 25rpx;
+
+			.img2 {
+				width: 105rpx;
+				height: 105rpx;
+				text-align: centers;
+
+				image {
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			.text {
+				font-size: 32rpx;
+				color: #1a1b1c;
+				padding-top: 10rpx;
+			}
+		}
+
+		.item:first-child {
+			padding-left: 0;
+		}
+
+		.item:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+// 茶文化介绍
+.about {
+	padding: 50rpx 30rpx 80rpx;
+	background: #f1efed;
+
+	.content {
+
+		// 行高为1.6倍，开头缩进两格
+		.row {
+			line-height: 1.6em;
+			text-indent: 2em;
+			padding: 20rpx 0;
+			border-bottom: 1rpx dashed #BDA066;
+		}
+
+		.row:first-child {
+			padding-top: 0;
+		}
+
+		.row:last-child {
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}
+
+// 新闻资讯
+.news {
+	padding: 50rpx 30rpx;
+}

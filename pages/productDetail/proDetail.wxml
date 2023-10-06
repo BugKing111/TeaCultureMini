@@ -1,0 +1,40 @@
+<xzs-header></xzs-header>
+<view class="detail">
+	<view class="banner">
+		<image src="{{detail.picpath}}"></image>
+	</view>
+
+	<view class="textMain">
+		<view class="title">
+			{{detail.title}}
+		</view>
+		<view class="text">
+
+			<view class="row">
+				<view class="left"><text space="emsp">货 号：</text></view>
+				<view class="right">{{detail.pronum}}</view>
+			</view>
+
+			<view class="row">
+				<view class="left"><text space="emsp">等 级：</text></view>
+				<view class="right">{{detail.grade}}</view>
+			</view>
+
+			<view class="row">
+				<view class="left"><text space="emsp">年 份：</text></view>
+				<view class="right">{{detail.year}}</view>
+			</view>
+
+			<view class="row">
+				<view class="left"><text space="emsp">净含量：</text></view>
+				<view class="right">{{detail.weight}}</view>
+			</view>
+
+			<view class="row">
+				<view class="left"><text space="emsp">零售价：</text></view>
+				<view class="right">{{detail.price}}</view>
+			</view>
+
+		</view>
+	</view>
+</view>

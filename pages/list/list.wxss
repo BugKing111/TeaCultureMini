@@ -1,0 +1,32 @@
+/* pages/list/list.wxss */
+.banner {
+	height: 460rpx;
+	width: 100%;
+}
+
+.banner .pic {
+	height: 100%;
+	width: 100%;
+}
+
+.content .body {
+	padding: 50rpx 30rpx;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content .body .box {
+	width: 330rpx;
+	margin-bottom: 30rpx;
+}
+
+.loadingOut {
+	text-align: center;
+	padding: 30rpx 0;
+}
+
+.noData {
+	font-size: 30rpx;
+	color: #666666;
+}

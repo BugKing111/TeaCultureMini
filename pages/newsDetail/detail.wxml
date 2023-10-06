@@ -1,0 +1,28 @@
+<!--pages/newsDetail/detail.wxml-->
+<view class="detail">
+	<view class="title">{{detail.title}}</view>
+	<view class="info">
+		<view class="left">
+			<text>{{detail.publish_date}}</text>
+			<text>{{detail.author}}</text>
+			<text>{{detail.view_count}}阅读</text>
+		</view>
+		<view class="right">
+			<van-icon name="share-o" size="18" />
+			<text>分享</text>
+			<button open-type="share" class="share" size="mini">
+				分享
+			</button>
+		</view>
+	</view>
+	<view class="content">
+		<!-- 富文本渲染内容 -->
+		<rich-text class="" nodes="{{detail.content}}"></rich-text>
+	</view>
+	<view class="copyright">
+		<view class="top">免责声名</view>
+		<view>
+			本文本来自网络创新者，并不代表巷子深小程序端的观点和立场，如有侵权请联系客服进行删除
+		</view>
+	</view>
+</view>

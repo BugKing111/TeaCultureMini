@@ -1,0 +1,49 @@
+/* 全局设置，让padding不自动填充 */
+view,
+text {
+	box-sizing: border-box;
+}
+
+/* 颜色存到变量里面，好修改 */
+page {
+	--themeColor: #BDA066;
+	--globalColor: #1a1b1c;
+	--focusColor: #4c4d4e;
+	--descColor: #7e8081;
+	--greyColor: #8e8e8e;
+	--subColor: #b1b2b3;
+	--lightColor: #e4e4e4;
+	--globalBgColor1: #e3e4e5;
+	--globalBgColor2: #f6f7f8;
+	--globalBgColor3: #ffffff;
+}
+
+/* 全局设置首页介绍的内容 */
+.pubTitle {
+	text-align: center;
+}
+
+/* 	text-transform: uppercase; 将英文变成大写 */
+.pubTitle .en {
+	font-size: 86rpx;
+	font-weight: 900;
+	text-transform: uppercase;
+	opacity: 0.1;
+}
+
+.pubTitle .cn {
+	font-size: 56rpx;
+	font-weight: 900;
+	transform: translateY(-60rpx);
+	color: #1a1b1c;
+}
+
+.pubTitle .line {
+	width: 100rpx;
+	height: 5rpx;
+	background: var(--globalColor);
+	opacity: 0.6;
+	/* 因为父级添加了text-algin：center所以在这里变成行内块就可以居中了 */
+	display: inline-block;
+	transform: translateY(-40rpx);
+}
